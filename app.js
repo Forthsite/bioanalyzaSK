@@ -13,3 +13,16 @@ window.onscroll = function() {
   };
 
 */
+
+/*
+const columns = document.getElementsByClassName('column');
+const columnarray = Array.from(columns);
+columnarray.forEach(col => {
+  col.addEventListener('click', () =>{
+    const paragraphs = col.querySelectorAll('p');
+    paragraphs.forEach(paragraph => {
+      paragraph.classList.add('visible')
+    })
+    col.style.width = 'calc(100vw/2)'
+  })
+});

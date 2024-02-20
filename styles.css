@@ -141,7 +141,7 @@ table {
 .hero-image{
     display: flex;
     align-items: center;
-    background-image: url("./img/manuel-cosentino-hMc2OBV0dhg-unsplash.jpg");
+    background-image: url("./img/emma-simpson-mNGaaLeWEp0-unsplash.jpg");
     background-size: cover;
     background-position: center;
     height: 90vh;
@@ -222,7 +222,19 @@ h1{
     flex-direction: column;
     border: 1px solid #edf2f7;
     transition: all .2s ease-in-out;
-    cursor: default;
+    cursor: pointer;
+}
+
+.column p, .column .btn{
+    /*
+    opacity: 0;
+    height: 0;
+    transition: all 1s ease-in-out ;
+    */
+}
+.column .visible {
+    opacity: 1;
+    height: fit-content;
 }
 .column:nth-child(4) .card-header {
     word-wrap: break-word;
@@ -232,7 +244,8 @@ h1{
     transform: scale(1.05);
 }
 .column img{
-    object-fit: contain;
+    height: 20rem;
+    object-fit: cover;
 }
 .content{
     margin: 1.5rem;
@@ -241,7 +254,7 @@ h1{
     padding-right: 3rem;
 }
 .content p{
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: #374151;
     margin-top: 4rem;
     margin-bottom: 4rem;
@@ -345,9 +358,12 @@ h1{
     padding-bottom: 13rem;
     background-color: #abe258;
 }
-#service, #hub{
+#service, #hub, #service2{
     padding-top: 15rem;
     padding-bottom: 15rem;
+}
+#service2 img{
+    width: 60rem;
 }
 .header-content{
     display: flex;
@@ -360,7 +376,7 @@ h1{
     justify-content: center;
     font-size: 1.9rem;
     color: #808080;
-    max-width: 58rem;
+    max-width: 90%;
 }
 .new-content{
     display: flex;
