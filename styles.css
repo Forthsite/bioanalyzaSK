@@ -140,24 +140,31 @@ table {
 }
 .hero-image{
     display: flex;
-    align-items: center;
+    align-items: flex-end;
     background-image: url("./img/emma-simpson-mNGaaLeWEp0-unsplash.jpg");
     background-size: cover;
     background-position: center;
     height: 90vh;
+    width: 100%;
+}
+#skener{
+    padding: 10rem 0;
+    margin: 5rem 0;
+    background: linear-gradient(90deg, rgba(250,250,250,1) 0%, rgba(240,240,240,1) 100%);
 }
 .hero-text{
     display: flex;
+    justify-content: flex-end;
+    color: whitesmoke;
+    margin-left: 5rem;
+    margin-bottom: 15rem;
     line-height: 1.5;
     font-weight: 700;
-    font-size: 2.5rem;
+    font-size: 4.5rem;
     gap: 2rem;
-    background-color: rgba(255, 255, 255, 0.884);
     border-radius: 5px;
-    margin-left: 2rem;
     width: fit-content;
     height: fit-content;
-    padding: 1rem;
 }
 .navbar-logo{
     display: flex;
@@ -357,6 +364,17 @@ h1{
     padding-top: 13rem;
     padding-bottom: 13rem;
     background-color: #abe258;
+}
+#poukaz{
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+}
+#poukaz div{
+    max-width: 45%;
+}
+#poukaz img{
+    width: 100%;
 }
 #service, #hub, #service2{
     padding-top: 15rem;
@@ -830,6 +848,13 @@ select{
     .socials svg{
         display: flex;
         width: 30px;
+    }
+    #poukaz{
+        flex-direction: column;
+        align-items: center;
+    }
+    #poukaz div{
+        max-width: 90%;
     }
     
     .navbar-logo img{
