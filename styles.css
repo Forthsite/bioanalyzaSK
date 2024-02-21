@@ -2,6 +2,11 @@
    v2.0 | 20110126
    License: none (public domain)
 */
+@font-face {
+    font-family: 'GreatVibes';
+    src: url('./fonts/GreatVibes-Regular.ttf') format('truetype');
+    /* You can specify multiple formats for better browser compatibility */
+  }
 :root{
     font-size: 62.5%;
     --main-color: #78716c;
@@ -154,17 +159,23 @@ table {
 }
 .hero-text{
     display: flex;
+    font-family: 'GreatVibes', sans-serif;
     justify-content: flex-end;
     color: whitesmoke;
     margin-left: 5rem;
     margin-bottom: 15rem;
     line-height: 1.5;
     font-weight: 700;
-    font-size: 4.5rem;
+    font-size: 8.5rem;
     gap: 2rem;
     border-radius: 5px;
     width: fit-content;
     height: fit-content;
+}
+.content-wrapper img{
+    width: 25%;
+    margin-top: 5rem;
+    border-radius: 10px;
 }
 .navbar-logo{
     display: flex;
@@ -602,7 +613,7 @@ h2{
 }
 .map-container{
     display: flex;
-    background: url(./img/mapawide.png);
+    background: url(./img/mapawideBA.png);
     height: 55vh;
     width: 70vw;
     background-repeat: no-repeat;
