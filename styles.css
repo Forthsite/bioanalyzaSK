@@ -153,6 +153,9 @@ table {
     width: 100%;
 }
 #skener{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     padding: 10rem 0;
     margin: 5rem 0;
     background: linear-gradient(90deg, rgba(250,250,250,1) 0%, rgba(240,240,240,1) 100%);
@@ -163,7 +166,7 @@ table {
     justify-content: flex-end;
     color: whitesmoke;
     margin-left: 5rem;
-    margin-bottom: 15rem;
+    margin-bottom: 5rem;
     line-height: 1.5;
     font-weight: 700;
     font-size: 8.5rem;
@@ -295,6 +298,7 @@ h1{
     position: relative;
     margin-left: 36rem;
     margin-right: 36rem;
+    margin-top: 10rem;
 }
 
 .img-container{
@@ -391,6 +395,11 @@ h1{
     padding-top: 15rem;
     padding-bottom: 15rem;
 }
+#reference{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 #service2 img{
     width: 60rem;
 }
@@ -400,12 +409,23 @@ h1{
     align-items: flex-start;
     margin-left: 5rem;
 }
-.header-content p{
+.header-content p, #skener p, #reference p{
     display: flex;
     justify-content: center;
     font-size: 1.9rem;
     color: #808080;
     max-width: 90%;
+}
+b{
+    display: contents;
+    font-weight: bold;
+}
+.content-wrapper p{
+    display: flex;
+    justify-content: center;
+    font-size: 1.9rem;
+    max-width: 90%;
+    margin-top: 3rem;
 }
 .new-content{
     display: flex;
