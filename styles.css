@@ -938,7 +938,7 @@ select{
         font-size: 2rem;
     }
     .numbers{
-        gap: 0;
+        gap: 10px;
     }
     .contact-wrapper{
         flex-direction: column-reverse;
@@ -961,6 +961,7 @@ select{
     #service .btn{
         width: 20rem;
         height: 6rem;
+        align-self: center;
     }
     .contact-form-wrapper {
         flex-direction: column-reverse;
