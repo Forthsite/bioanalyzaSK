@@ -558,9 +558,6 @@ h2{
     height: 20rem;
     overflow: hidden;
 }
-.col-img > img{
-    transform: translateX(-10%);
-}
 
 /*from ts */
 
