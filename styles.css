@@ -554,6 +554,13 @@ h2{
 #table-header:hover{
     fill: #f3f4f6;
 }
+.col-img{
+    height: 20rem;
+    overflow: hidden;
+}
+.col-img > img{
+    transform: translateX(-10%);
+}
 
 /*from ts */
 
@@ -861,6 +868,11 @@ select{
     :root {
       font-size: 31.25%; /* (62.5 / 1920) * 576 */
     }
+    .col-img > img{
+        width: 100%;
+        transform: translateY(-20%);
+        height: auto;
+    }
     .content-wrapper{
         padding: 1rem;
     }
@@ -982,6 +994,11 @@ select{
     :root {
       font-size: 42.71%; /* (62.5 / 1920) * 768 */
     }
+    .col-img > img{
+        width: 100%;
+        transform: translateY(-20%);
+        height: auto;
+    }
     .content-wrapper{
         padding: 1rem;
     }
@@ -1088,6 +1105,11 @@ select{
     :root {
       font-size: 55.73%; /* (62.5 / 1920) * 992 */
     }
+    .col-img > img{
+        width: 100%;
+        transform: translateY(-20%);
+        height: auto;
+    }
     .hero-image{
         background-position: 50%;
     }
@@ -1144,6 +1166,11 @@ select{
     :root {
       font-size: 62.5%; /* (62.5 / 1920) * 1200 */
     }
+    .col-img > img{
+        width: 100%;
+        transform: translateY(-20%);
+        height: auto;
+    }
     .hero-image{
         background-position: 50%;
     }
@@ -1180,6 +1207,11 @@ select{
       }
       .hero-image{
         background-position: 50%;
+    }
+    .col-img > img{
+        width: 100%;
+        transform: translateY(-20%);
+        height: auto;
     }
     .wrapper{
         flex-direction: column;
