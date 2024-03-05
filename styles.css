@@ -131,7 +131,7 @@ table {
     align-items: center;
     align-self: center;
     color:#fff;
-    background-color: var(--main-color);
+    background-color: var(--secondary-color);
     border-radius: 5px;
     padding-left: 1rem;
     padding-right: 1rem;
@@ -141,7 +141,7 @@ table {
     font-weight: 400;
 }
 .navbar-btn:hover{
-    background-color: var(--secondary-color);
+    background-color: var(--main-color);
 }
 .hero-image{
     display: flex;
@@ -824,6 +824,16 @@ textarea, label {
     display: inline;
     font-size: 2rem;
     color: var(--main-color);
+}
+.color2{
+    display: inline;
+    color: var(--secondary-color);
+}
+#skener p{
+    flex-direction: column;
+}
+#skener h1{
+    filter: drop-shadow(5px 5px 10px #65a30d);
 }
 .lokalita{
     display: flex;
